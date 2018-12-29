@@ -1,0 +1,25 @@
+.nav-list
+  list-style-type: none
+  display: grid
+  grid-template-columns: repeat(6, auto)
+  grid-column-gap: 20px
+  align-items: center
+  margin: 0px
+  padding: 0
+.nav-link
+  padding: 8px 16px
+  line-height: 1.5
+  letter-spacing: 1.2px
+  color: $dark-gray
+  text-decoration: none
+  font-size: 1rem
+  white-space: nowrap
+  transition: color 0.5s
+  &:hover
+    color: $red
+    border-bottom: 2px solid $red
+.nav-list-narrow
+  display: none
+.nav-link-narrow
+  width: 1000px
+  color: $white
