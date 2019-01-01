@@ -526,8 +526,14 @@ header {
   #slideshow-img-3 {
     width: 900px; } }
 @media (max-width: 510px) {
+  .top-bar {
+    height: 38px; }
+
   .top-bar-text {
     display: none; }
+
+  .tool-bar-link {
+    font-size: 1.4rem; }
 
   .widgets-container {
     width: 100%; }
