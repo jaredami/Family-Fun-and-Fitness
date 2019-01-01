@@ -318,13 +318,13 @@ header {
 
 .about-container {
   background-color: #1C1C1C;
-  padding: 40px; }
+  padding: 0px 40px; }
 
 .about-text {
   color: #f5f5f5;
   max-width: 1070px;
   margin: 0 auto;
-  padding: 0px 80px;
+  padding: 40px 80px;
   border-radius: 4px;
   opacity: 0.99; }
 
@@ -515,15 +515,18 @@ header {
 
   .nav-link-narrow {
     display: none; } }
+@media (max-width: 1071px) {
+  #slideshow-img-3 {
+    width: 1100px; } }
 @media (max-width: 768px) {
   .dropdown-content-narrow {
     grid-template-columns: 1fr 1fr;
     width: 400px; }
 
-  .about-text {
-    padding: 20px; } }
+  #slideshow-img-3 {
+    width: 900px; } }
 @media (max-width: 510px) {
-  #top-bar-text {
+  .top-bar-text {
     display: none; }
 
   .widgets-container {
@@ -540,8 +543,17 @@ header {
   .widget-text {
     padding-left: 20px; }
 
+  .about-text {
+    padding: 20px; }
+
   .trainer-container {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+
+  .footer-container {
+    padding: 20px; }
+
+  .footer-label {
+    font-size: 16px; } }
 @media (max-width: 410px) {
   .dropdown-content-narrow {
     grid-template-columns: 1fr;

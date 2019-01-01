@@ -44,6 +44,9 @@ jQuery(document).ready(function() {
   const slide3 = document.getElementById("slideshow-img-3");
 
   function handlePrevCLick(e) {
+    slide2.src = slide2.dataset.src;
+    slide3.src = slide3.dataset.src;
+
     slides[currentSlideNum].classList.remove("currentSlide");
     currentSlideNum > 0
       ? (currentSlideNum = currentSlideNum - 1)
@@ -52,6 +55,9 @@ jQuery(document).ready(function() {
   }
 
   function handleNextCLick(e) {
+    slide2.src = slide2.dataset.src;
+    slide3.src = slide3.dataset.src;
+
     slides[currentSlideNum].classList.remove("currentSlide");
     currentSlideNum < 2
       ? (currentSlideNum = currentSlideNum + 1)
