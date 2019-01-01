@@ -42,6 +42,9 @@ body {
   .tool-bar-link:hover {
     color: #737373; }
 
+.tool-bar-text {
+  display: none; }
+
 header {
   border-bottom: 4px solid #1C1C1C; }
 

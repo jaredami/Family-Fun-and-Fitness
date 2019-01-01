@@ -11,8 +11,8 @@
             alt="member icon" >
           </a> -->
           <a href="<?php echo site_url('/membership') ?>">
-            <img class="widget-img hideme" src="<?php echo get_template_directory_uri(); ?>/images/signup-icon-sm.png"
-            alt="member icon" >
+            <img class="widget-img hideme" src="<?php echo get_template_directory_uri(); ?>/images/signup-icon.png"
+            alt="member icon">
           </a>
           <h1 class="widget-heading hideme" >Membership</h1>
           <p class="widget-text hideme">Family Fun &amp; Fitness has something for everyone from
@@ -21,7 +21,7 @@
         </div>
         <div class="widget">
           <a href="<?php echo site_url('/fitness-training') ?>">
-            <img class="widget-img hideme" src="https://static.thenounproject.com/png/466088-200.png"
+            <img class="widget-img hideme" src="<?php echo get_template_directory_uri(); ?>/images/barbell-icon.png"
             alt="barbell icon">
           </a>
           <h1 class="widget-heading hideme">Fitness Training</h1>
@@ -30,7 +30,7 @@
         </div>
         <div class="widget">
           <a href="<?php echo site_url('/facility-rental') ?>">
-            <img class="widget-img hideme" src="https://www.shareicon.net/download/2015/12/28/694313_clock_512x512.png"
+            <img class="widget-img hideme" src="<?php echo get_template_directory_uri(); ?>/images/clock-icon-sm.png"
             alt="time icon">
           </a>
           <h1 class="widget-heading hideme">Facility Rental</h1>
