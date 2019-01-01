@@ -526,11 +526,19 @@ header {
   #top-bar-text {
     display: none; }
 
+  .widgets-container {
+    width: 100%; }
+
   .widget-img {
-    width: 80px; }
+    width: 70px;
+    margin: 0px 10px; }
 
   .widget-heading {
-    font-size: 28px; }
+    font-size: 28px;
+    padding-top: 16px; }
+
+  .widget-text {
+    padding-left: 20px; }
 
   .trainer-container {
     grid-template-columns: 1fr; } }
