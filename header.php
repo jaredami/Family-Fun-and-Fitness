@@ -3,6 +3,7 @@
   <head>
     <meta charset="<?php bloginfo('charset') ?>" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Family Fun & Fitness</title>
     <script type="text/javascript" src="/script.js"></script>
     <?php wp_head(); ?>
   </head>
