@@ -85,19 +85,26 @@
       <div class="slideshow-container">
     
         <div class="mySlides fade currentSlide">
-          <div class="numbertext"></div><img id="slideshow-img-1" class="slideshow-img"  src="<?php echo get_template_directory_uri(); ?>/images/f3img5.jpg"
-            alt="cardio machines"><div class="slideshow-text"></div>
+          <div class="numbertext"></div>
+          <img id="slideshow-img-1" class="slideshow-img" src="<?php echo get_template_directory_uri(); ?>/images/f3img5.jpg"
+            alt="cardio machines">
+          <div class="slideshow-text"></div>
         </div>
 
         <div class="mySlides fade ">
-          <div class="numbertext"></div><img id="slideshow-img-2" class="slideshow-img" src="<?php echo get_template_directory_uri(); ?>/images/f3img2.jpg"
-            alt="boxer girl"><div class="slideshow-text"><span></span></div>
+          <div class="numbertext"></div>
+          <img id="slideshow-img-2" class="slideshow-img" data-src="<?php echo get_template_directory_uri(); ?>/images/f3img2.jpg"
+            alt="boxer girl">
+          <div class="slideshow-text"><span></span></div>
         </div>
 
         <div class="mySlides fade ">
-          <div class="numbertext"></div><img id="slideshow-img-3" class="slideshow-img" src="<?php echo get_template_directory_uri(); ?>/images/f3img3sm.jpg"
-            alt="deadlifter"><div class="slideshow-text"></div>
-        </div><a class="prev">❮</a><a class="next">❯</a></div>
+          <div class="numbertext"></div>
+          <img id="slideshow-img-3" class="slideshow-img" data-src="<?php echo get_template_directory_uri(); ?>/images/f3img3sm.jpg"
+            alt="deadlifter">
+          <div class="slideshow-text"></div>
+        </div>
+        <a class="prev">❮</a><a class="next">❯</a></div>
   
       </div>
       

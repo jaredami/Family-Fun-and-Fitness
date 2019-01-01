@@ -40,6 +40,8 @@ jQuery(document).ready(function() {
   const next = document.querySelector(".next");
   const slides = document.querySelectorAll(".mySlides");
   let currentSlideNum = 0;
+  const slide2 = document.getElementById("slideshow-img-2");
+  const slide3 = document.getElementById("slideshow-img-3");
 
   function handlePrevCLick(e) {
     slides[currentSlideNum].classList.remove("currentSlide");
@@ -62,6 +64,9 @@ jQuery(document).ready(function() {
 
   /* slideshow auto-run */
   setInterval(() => {
+    slide2.src = slide2.dataset.src;
+    slide3.src = slide3.dataset.src;
+
     slides[currentSlideNum].classList.remove("currentSlide");
     currentSlideNum < 2
       ? (currentSlideNum = currentSlideNum + 1)
