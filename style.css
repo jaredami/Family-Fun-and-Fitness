@@ -152,10 +152,8 @@ header {
   transition: all 0.5s ease; }
   .dropdown-content li {
     margin: 10px 0px; }
-    .dropdown-content li a {
-      color: #070606; }
-      .dropdown-content li a:hover {
-        cursor: pointer; }
+    .dropdown-content li a:hover {
+      cursor: pointer; }
 
 .dropdown:hover .dropdown-content {
   opacity: 1; }

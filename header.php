@@ -13,10 +13,22 @@
       <div class="top-bar">
         <span class="top-bar-text">Family Fun &amp; Fitness ~ Mo-Fr: 5am-10pm, St: 7am-9pm</span>
         <div class="tool-bar">
-          <a class="tool-bar-link" href="#"><i class="fa fa-rss" aria-hidden="true"></i><p class="tool-bar-text">RSS</p></a>
-          <a class="tool-bar-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i><p class="tool-bar-text">twitter</p></a>
-          <a class="tool-bar-link" href="https://www.facebook.com/FamilyFunFitness" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><p class="tool-bar-text">facebook</p></a>
-          <a class="tool-bar-link" href="https://www.youtube.com/user/FamilyFunFitness" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i><p class="tool-bar-text">youtube</p></a>
+          <a class="tool-bar-link" href="#">
+            <i class="fa fa-rss" aria-hidden="true"></i>
+            <p class="tool-bar-text">RSS</p>
+          </a>
+          <a class="tool-bar-link" href="#">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <p class="tool-bar-text">twitter</p>
+          </a>
+          <a class="tool-bar-link" href="https://www.facebook.com/FamilyFunFitness" target="_blank" rel="noopener">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <p class="tool-bar-text">facebook</p>
+          </a>
+          <a class="tool-bar-link" href="https://www.youtube.com/user/FamilyFunFitness" target="_blank" rel="noopener">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <p class="tool-bar-text">youtube</p>
+          </a>
         </div>
       </div>
 

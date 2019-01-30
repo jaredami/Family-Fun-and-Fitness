@@ -3,8 +3,12 @@ jQuery(document).ready(function() {
   const hamburger = document.querySelector(".nav-hamburger");
   let narrowNavStyle = document.querySelector(".nav-list-narrow").style;
 
+  /* initializing this property because otherwise you have to click twice the first time */
+  narrowNavStyle.display = "none";
+
   function toggleNarrowNavVisibility() {
     console.log("nav toggled");
+    console.log(narrowNavStyle.display);
     if (narrowNavStyle.display === "none") {
       narrowNavStyle.display = "block";
     } else {
@@ -19,6 +23,10 @@ jQuery(document).ready(function() {
   let narrowAmenitiesDropdownStyle = document.querySelector(
     ".dropdown-content-narrow"
   ).style;
+
+  /* initializing these properties because otherwise you have to click twice the first time */
+  narrowAmenitiesDropdownStyle.opacity = "0";
+  narrowAmenitiesDropdownStyle.position = "absolute";
 
   function toggleNarrowAmenitiesDropdownVisibility() {
     console.log("narrow amenities toggled");
